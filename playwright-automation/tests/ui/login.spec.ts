@@ -1,4 +1,4 @@
-import { test, expect } from '../fixtures/pages.fixture';
+import { test } from '../fixtures/pages.fixture';
 import uiData from '../../test-data/ui-test-data.json';
 
 test.describe('Login Tests', () => {
