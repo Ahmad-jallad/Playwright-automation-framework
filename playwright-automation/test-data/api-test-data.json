@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://simple-books-api.click",
+  "clientName": "Playwright Assessment Client",
+  "bookId": 1,
+  "customerName": "Ahmad Jallad"
+}
