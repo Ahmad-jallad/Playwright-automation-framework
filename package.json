@@ -1,0 +1,19 @@
+{
+  "name": "playwright-automation-assessment",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework for SauceDemo UI and Simple Books API assessment.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.0",
+    "typescript": "^5.9.0"
+  }
+}
